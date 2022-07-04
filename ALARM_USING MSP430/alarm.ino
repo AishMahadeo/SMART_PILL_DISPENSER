@@ -1,12 +1,3 @@
-/* Arduino real time clock and calendar with 2 alarm functions and temperature monitor using DS3231
-   Read DS3231 RTC datasheet to understand the code
-   Time & date parameters can be set using two push buttons connected to pins 9 (B1) & 10 (B2).
-   Alarm1 and alarm2 can be set using two push buttons connected to 11 (B3) & 10 (B2).
-   Pin 12 becomes high when alarm occurred and button B2 returns it to low and
-   turns the occurred alarm OFF.
-   DS3231 interrupt pin is connected to Arduino external interrupt pin 2.
-*/
- 
 // include LCD library code
 #include <LiquidCrystal.h>
 // include Wire library code (needed for I2C protocol devices)
